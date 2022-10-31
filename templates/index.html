@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Are You Phishing?</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="/static/js/jquery-1.12.3.js"></script>
+    <script src="/static/js/main.js.js" defer type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <div class="headcon">
+
+            <div class="question">?</div>
+
+            <div class="logo">
+                <h2>are you <br> phishing?</h2>
+            </div>     
+        </div>
+    </header>
+    
+    <div class="container">
+        <center>
+
+            <button class="main">MAIN</button>
+            <button class="list">LIST</button>
+
+            <div class="search">
+                <h2>Are You Phishing?</h2>
+                
+                <input type="url" name="url" id="url"
+                placeholder="https://example.com/"
+                size="45"
+                required>
+                <button class="resultbt">GO !</button>
+            </div>
+            
+            <div class="mongu">" 저는 피셔가 아니라 개인정보수집가에요. "<br>
+                " I'm not phisher. I'm Personal Information Collector. "
+            </div>
+        </center>
+
+        <div class="resultbox">
+            <div class="result">
+                DANGER !
+            </div>
+            <button class="report"onclick="location.href='https://safebrowsing.google.com/safebrowsing/report_phish/?hl=ko'">REPORT</button>
+            <div class="detail">
+                INPUT URL : https://example.com/<br>
+                LONG URL : https://example.com/longlongverylong<br>
+                DOMAIN : example.com<br>
+                REGISTRAION : 2022-03-01<br>
+                IP ADDRESS : 255.255.255.255
+            </div>
+            <div style="overflow-y:scroll; height:200px;" class="message">
+                (대충 댓글들)<span>2022-10-31 20:30</span><br>
+                (대충 댓글들)<span>2022-10-31 20:30</span><br>
+                (대충 댓글들)<span>2022-10-31 20:30</span><br>
+                (대충 댓글들)<span>2022-10-31 20:30</span><br>
+                (대충 댓글들)<span>2022-10-31 20:30</span><br>
+                (대충 댓글들)<span>2022-10-31 20:30</span><br>
+                (대충 댓글들)<span>2022-10-31 20:30</span><br>
+                (대충 댓글들)<span>2022-10-31 20:30</span><br>
+            </div>
+        </div>
+
+        <div class="QuestionPop">
+            (대충 판단 기준)
+
+            <button class="popbutton">Close</button>
+        </div>  
+        
+        <div class="back">
+            <div class="listbox">
+                1 (대충 url)<br>
+                2 (대충 url)<br>
+                3 (대충 url)<br>
+                4 (대충 url)<br>
+                6 (대충 url)<br>
+                7 (대충 url)<br>
+                8 (대충 url)<br>
+                9 (대충 url)<br>
+                10 (대충 url)<br>
+            </div>
+        </div>
+        
+    </div>
+
+
+</body>
+</html>

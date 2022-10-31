@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0; list-style-type: none; color: black;}
+
+header{border-bottom: solid 3px; height: 80px;}
+
+.headcon{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.question{
+    float: right;
+    font-weight: bold;
+    font-size: 50px;
+    border: solid 2px;
+    border-radius: 50%;
+    padding: 0 22px;
+    cursor: pointer;
+}
+
+.container{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.search{
+    font-size: 30px;
+    padding-top: 5rem;
+}
+
+input{
+    height: 50px;
+    font-size: 20px;
+    border: solid 1px black;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button{
+    width: 80px;
+    height: 50x;
+    padding: 10px 0 12px 0;
+    border:solid 1px black;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.resultbt:hover, .question:hover, .popbutton:hover{background-color: rgb(231, 231, 231);}
+
+.mongu{
+    font-size: 25px;
+    margin-top: 1.5rem;
+}
+
+.logo{cursor: pointer;}
+
+.QuestionPop{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    border: solid 3px;
+    left: 20%;
+    top: 10%;
+    display: none;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.question:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.popbutton{
+    position: absolute;
+    left: 45%;
+    bottom: 10px;
+}
+
+.result{
+    line-height: 200px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.resultbox{
+    background: lightgray;
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    width: 1000px;
+    margin-top: 2rem;
+}
+
+.detail{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.message{
+    height: 200px;
+    font-size: 25px;
+    margin: 1rem;
+    line-height: 38px;
+}
+
+span{
+    float: right;
+}
+
+.main, .list{margin-top: 3rem; border: none;}
+
+.main{background-color: rgb(231, 231, 231);}
+
+.listbox{
+    bottom: 250px;
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    font-size: 30px;
+    line-height: 65px;
+    background-color: white;
+    display: none;
+}
+
+.back{
+    width: 1000px;
+    position: absolute;
+    height: 800px;
+    background-color: white;
+    display: none;
+}
+
+.report{
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    top: 210px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
